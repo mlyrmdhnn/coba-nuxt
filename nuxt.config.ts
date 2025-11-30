@@ -4,4 +4,16 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   pages: true,
   ssr: true,
+  runtimeConfig: {
+    apiSecret: "123",
+    public: {
+      apiBase: "https://example.com",
+    },
+  },
+  app: {
+    head: {
+      title: "Title Default dari nuxt.config",
+      meta: [{ name: "Deskripsi Default", content: "Deskripsi Default juga" }],
+    },
+  },
 });

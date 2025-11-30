@@ -8,6 +8,7 @@ function enableDefaultLayout() {
 definePageMeta({
     layout: false
 })
+
 </script>
 
 <template>
