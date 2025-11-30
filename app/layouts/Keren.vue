@@ -1,0 +1,4 @@
+<template>
+    XIXIXIXIXI
+    <slot />
+</template>
